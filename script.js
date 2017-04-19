@@ -56,8 +56,8 @@ var result = 0;
 });
 
 function performOperations(a, b, operator){
-    a = parseInt(a);
-    b = parseInt(b);
+    a = parseFloat(a);
+    b = parseFloat(b);
     console.log(a, b, operator);
     if (operator === "+") return a + b;
     if (operator === "-") return a - b;
