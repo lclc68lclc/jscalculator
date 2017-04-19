@@ -31,12 +31,6 @@ var result = 0;
       return number;
     })
   })
-  $("#decimal").on("click", function(){
-      number += ".";
-      $("#input").val(function(){
-        return number;
-      })
-    })
   $("#clearout").on("click", function(){
     number = "";
     newnum = "";
