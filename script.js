@@ -40,7 +40,7 @@ var result = 0;
   $("#clearout").on("click", function(){
     number = 0;
     newnum = 0;
-    $("#input").reset();
+    $("#input").val("");
   })
   $("#clear").on("click", function(){
     number = 0;
